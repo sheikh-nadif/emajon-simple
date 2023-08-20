@@ -2,6 +2,7 @@
     display: flex;
     border-bottom: 1px solid lightgray;
     margin: 5px 5px 5px 0;
+    padding-bottom: 10px;
 }
 
 .product .product-name{
@@ -11,4 +12,44 @@
 
 .product img{
     margin-right: 10px;
+}
+
+.btn-purchase{
+    position: relative;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 520;
+    color: #FFFFFF;
+    padding: 12px;
+    width: 140px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn-purchase:after{
+    content: "";
+    background: #fff34f;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.btn-purchase:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.icon-spacing{
+    margin-right: 5px;
 }
