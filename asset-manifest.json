@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/emajon-simple/static/css/main.59954613.css",
+    "main.js": "/emajon-simple/static/js/main.605c8084.js",
+    "static/js/787.e03d9f87.chunk.js": "/emajon-simple/static/js/787.e03d9f87.chunk.js",
+    "static/media/logo.png": "/emajon-simple/static/media/logo.0dd9a5104bbc1da3e6ae.png",
+    "index.html": "/emajon-simple/index.html",
+    "main.59954613.css.map": "/emajon-simple/static/css/main.59954613.css.map",
+    "main.605c8084.js.map": "/emajon-simple/static/js/main.605c8084.js.map",
+    "787.e03d9f87.chunk.js.map": "/emajon-simple/static/js/787.e03d9f87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59954613.css",
+    "static/js/main.605c8084.js"
+  ]
+}
